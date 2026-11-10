@@ -1,0 +1,22 @@
+# Um universo chamado você — site romântico
+
+## Como visualizar
+Abra `index.html` no navegador. Para publicar, envie os arquivos para um repositório GitHub e ative o GitHub Pages.
+
+## Personalização rápida
+- Edite os textos em `index.html`.
+- Troque as imagens: procure as tags `<img src="...">` e substitua os endereços por suas fotos. Para usar fotos locais, coloque-as na pasta e use, por exemplo, `src="fotos/nossa-foto.jpg"`.
+- As cartas estão nos botões `.letter-card`; personalize `data-title` e `data-message`.
+- No fim do `index.html`, há um áudio chamado `musica.mp3`. Coloque sua música nessa pasta com esse nome. O navegador só toca depois que a pessoa clicar em “Ativar música”.
+- Use uma música sua, licenciada ou livre para uso. Não inclua uma faixa comercial sem autorização.
+
+## Publicar gratuitamente com GitHub Pages
+1. Crie uma conta em https://github.com/.
+2. Clique em **New repository**. Dê um nome, por exemplo `presente-para-ela`, e deixe **Public**.
+3. Envie `index.html`, `style.css`, `script.js` e `musica.mp3` (se tiver) usando **Add file > Upload files**. Se usar fotos locais, envie também a pasta `fotos`.
+4. Abra **Settings > Pages**.
+5. Em **Build and deployment**, selecione **Deploy from a branch**.
+6. Escolha a branch `main` e a pasta `/ (root)`, depois clique em **Save**.
+7. Aguarde a publicação. O endereço aparecerá na seção Pages, normalmente como `https://SEU-USUARIO.github.io/presente-para-ela/`.
+
+O GitHub Pages pode levar alguns minutos para publicar. O endereço `github.io` é gratuito; não é necessário comprar domínio.
